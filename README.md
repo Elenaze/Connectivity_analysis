@@ -1,3 +1,4 @@
+
 # Connectivity analysis for Molecular Graph Construction
 
 A computational tool for determining optimal connectivity parameters (α-values) in molecular graph construction from atomic coordinates. This analysis establishes the foundation for molecular graph encoding by defining precise connectivity criteria based on pair distribution functions (PDFs).
@@ -45,7 +46,7 @@ git clone https://github.com/Elenaze/Connectivity_analysis
 cd Connectivity_analysis 
 
 # Install dependencies
-pip install numpy pandas scipy matplotlib seaborn ase
+pip install -r requirements.txt
 ```
 
 ## Usage
