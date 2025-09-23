@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use('Agg')  # Use Agg backend to avoid GUI issues
+
 from PDF import PDFAnalyzer, AnalysisResults
 from datetime import datetime
 from pathlib import Path

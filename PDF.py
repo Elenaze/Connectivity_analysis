@@ -382,7 +382,7 @@ class PDFAnalyzer:
             # Add vertical lines for maxima and minima
                 if key in self.X_max:
                     ax.axvline(x=self.X_max[key], linestyle='--', 
-                          color='black', label='X max')
+                          color='black', label='X mactix')
                 
                 if key in self.X_min:
                     ax.axvline(x=self.X_min[key], linestyle='--',
