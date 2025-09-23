@@ -41,8 +41,8 @@ where $R_i$ and $R_j$ are the atomic radii of atom i and j respectively and $\al
 
 ```bash
 # Clone the repository
-git clone [your-repo-url]
-cd Repository
+git clone https://github.com/Elenaze/Connectivity_analysis
+cd Connectivity_analysis 
 
 # Install dependencies
 pip install numpy pandas scipy matplotlib seaborn ase
