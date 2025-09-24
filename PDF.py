@@ -414,7 +414,7 @@ class PDFAnalyzer:
         print("Computing KDE...")
         self.compute_kde()
         
-        print("Finding maximum and minum...")
+        print("Finding maximum and minimum...")
         self.find_max_min()
         
         return self.pair_distances
