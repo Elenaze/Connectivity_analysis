@@ -1,5 +1,10 @@
-
 # Connectivity analysis for Molecular Graph Construction
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23766806.svg)](https://doi.org/10.5281/zenodo.23766806)
+
+
+> **Version used in** E. Zerbato, T. Bürgi, A. F. Perez Mellor, *J. Chem. Phys.* **164**, 074302 (2026), [doi:10.1063/5.0320687](https://doi.org/10.1063/5.0320687):
+> release [v1.0](https://github.com/Elenaze/Connectivity_analysis/releases/tag/v1.0), archived on Zenodo, [doi:10.5281/zenodo.23766807](https://doi.org/10.5281/zenodo.23766807).
 
 A computational tool for determining optimal connectivity parameters (α-values) in molecular graph construction from atomic coordinates. This analysis establishes the foundation for molecular graph encoding by defining precise connectivity criteria based on pair distribution functions (PDFs).
 
@@ -118,6 +123,26 @@ results/
 1. PDF maxima/minima identification
 2. Alpha calculation: minimum position / sum of atomic radii
 3. Physical constraints validation
+
+
+## How to cite
+
+If you use this code, please cite the article and the archived version of the code:
+
+- E. Zerbato, T. Bürgi, and A. F. Perez Mellor, "The role of ring puckering and non-covalent interactions in the conformational chirality of 2,5-diketopiperazines with identical residues: A theoretical study," *J. Chem. Phys.* **164**, 074302 (2026). https://doi.org/10.1063/5.0320687
+- Connectivity_analysis v1.0, Zenodo, https://doi.org/10.5281/zenodo.23766807
+
+```bibtex
+@article{zerbato2026role,
+  author  = {Zerbato, Elena and B{\"u}rgi, Thomas and Perez Mellor, Ariel F.},
+  title   = {The role of ring puckering and non-covalent interactions in the conformational chirality of 2,5-diketopiperazines with identical residues: A theoretical study},
+  journal = {J. Chem. Phys.},
+  volume  = {164},
+  pages   = {074302},
+  year    = {2026},
+  doi     = {10.1063/5.0320687}
+}
+```
 
 ## References
 
